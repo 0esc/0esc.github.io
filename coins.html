@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minercheck</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="CHECKMARK.jpg"> <!-- favicon replacement jpg (tab logo)--> 
+</head>
+
+<body>
+    <header>
+        <img src="minerchecklogo.png" alt="Minercheck Logo" id="header-logo"> <!-- website logo -->
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mining-calculator.html">Mining Calculator</a></li>
+                <li><a href="coins.html">Coin List/Statistics</a></li>
+                <li><a href="gpu-profit-table.html">GPU Profitability</a></li>
+                <li><a href="database-landing.html">Mining Database</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="main">
+            <h1>Coin List/Statistics</h1>
+            <p>Below is a list of coins and the data taken from 26/04/2024.</p>
+        </section>
+        <table id="coinsTable" class="results-table">
+            <thead>
+                <tr>
+                    <th>Coin Name</th>
+                    <th>Difficulty</th>
+                    <th>Block Reward</th>
+                    <th>Block Time (seconds)</th>
+                    <th>Price Per Coin (USD) <button id="sortButton">Sort &#x2195;</button></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--JS table -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- JS inline script to show a different approach besides an external script -->
+    <script>
+        // Fetch the coin data from the JSON file and populate the table
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('coins.json').then(response => response.json()).then(data => {
+                const tableBody = document.getElementById('coinsTable').querySelector('tbody');
+                let sortAscending = true;
+                
+                // Function to populate the table with the coin data
+                function populateTable(data) {
+                    // Clear the table
+                    tableBody.innerHTML = '';
+                    Object.entries(data).forEach(([coin, details]) => {
+                        // Create a new row for each coin
+                        const row = tableBody.insertRow();
+                        row.insertCell().textContent = coin;
+                        row.insertCell().textContent = details.difficulty;
+                        row.insertCell().textContent = details.blockReward;
+                        row.insertCell().textContent = details.blockTime;
+                        row.insertCell().textContent = `$${parseFloat(details.pricePerCoin).toFixed(4)}`;
+                    });
+                }
+                populateTable(data);
+                
+                // event listener for the sort button
+                document.getElementById('sortButton').addEventListener('click', () => {
+                    // Sort data by price
+                    const sortedData = Object.entries(data).sort((a, b) => {
+                        const priceA = parseFloat(a[1].pricePerCoin);
+                        const priceB = parseFloat(b[1].pricePerCoin);
+                        return sortAscending ? priceA - priceB : priceB - priceA;
+                    });
+    
+                    // Convert the sorted data back to object format
+                    const sortedDataObj = sortedData.reduce((obj, [coin, details]) => {
+                        obj[coin] = details;
+                        return obj;
+                    }, {});
+                    
+                    // Populate the table with the sorted data
+                    populateTable(sortedDataObj);
+                    sortAscending = !sortAscending;
+                });
+                
+            }).catch(error => {
+                // Handle any errors that occur during the fetch
+                console.error('Error fetching coin data:', error);
+            });
+        });
+    </script>
+
+</body>
+
+<footer>
+    <p>&copy; 2024 Minercheck. All rights reserved.</p>
+</footer>
+
+</html>

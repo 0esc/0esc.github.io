@@ -1,0 +1,1003 @@
+{
+    "GPUs": [
+        {
+            "model": "4090",
+            "details": {
+                "Dynex": {
+                    "hashrate": 10.2,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 292.48,
+                    "wattage": 380
+                },
+                "Flux": {
+                    "hashrate": 144.6,
+                    "wattage": 280
+                },
+                "Alephium": {
+                    "hashrate": 6020,
+                    "wattage": 250
+                },
+                "Clore": {
+                    "hashrate": 65,
+                    "wattage": 240
+                },
+                "Ergo": {
+                    "hashrate": 265.82,
+                    "wattage": 240
+                },
+                "Radiant": {
+                    "hashrate": 3290,
+                    "wattage": 250
+                },
+                "Eth Classic": {
+                    "hashrate": 124.7,
+                    "wattage": 280
+                }
+            }
+        },
+        {
+            "model": "4080",
+            "details": {
+                "Dynex": {
+                    "hashrate": 8.530,
+                    "wattage": 180
+                },
+                "Nexa":{
+                    "hashrate": 188.7,
+                    "wattage": 320
+                },
+                "Flux": {
+                    "hashrate": 129.4,
+                    "wattage": 320
+                },
+                "Alephium": {
+                    "hashrate": 3850,
+                    "wattage": 320
+                },
+                "Clore": {
+                    "hashrate": 46.53,
+                    "wattage": 320
+                },
+                "Ergo": {
+                    "hashrate": 172.53,
+                    "wattage": 320
+                },
+                "Radiant": {
+                    "hashrate": 1720,
+                    "wattage": 320
+                },
+                "Eth Classic": {
+                    "hashrate": 87.04,
+                    "wattage": 320
+                }
+            }
+        },
+        {
+            "model": "4070ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 6320,
+                    "wattage": 150
+                },
+                "Nexa":{
+                    "hashrate": 149.03,
+                    "wattage": 250
+                },
+                "Flux": {
+                    "hashrate": 88.4,
+                    "wattage": 250
+                },
+                "Alephium": {
+                    "hashrate": 2690,
+                    "wattage": 250
+                },
+                "Clore": {
+                    "hashrate": 32.87,
+                    "wattage": 250
+                },
+                "Ergo": {
+                    "hashrate": 133.69,
+                    "wattage": 250
+                },
+                "Radiant": {
+                    "hashrate": 1470,
+                    "wattage": 250
+                },
+                "Eth Classic": {
+                    "hashrate": 62.98,
+                    "wattage": 250
+                }
+            }
+        },
+        {
+            "model": "4070",
+            "details": {
+                "Dynex": {
+                    "hashrate": 5.410,
+                    "wattage": 140
+                },
+                "Nexa":{
+                    "hashrate": 122.12,
+                    "wattage": 220
+                },
+                "Flux": {
+                    "hashrate": 67,
+                    "wattage": 220
+                },
+                "Alephium": {
+                    "hashrate": 2260,
+                    "wattage": 220
+                },
+                "Clore": {
+                    "hashrate": 33.06,
+                    "wattage": 220
+                },
+                "Ergo": {
+                    "hashrate": 132.54,
+                    "wattage": 220
+                },
+                "Radiant": {
+                    "hashrate": 1230,
+                    "wattage": 220
+                },
+                "Eth Classic": {
+                    "hashrate": 62.96,
+                    "wattage": 220
+                }
+            }
+        },
+        {
+            "model": "4060ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 3.670,
+                    "wattage": 120
+                },
+                "Nexa":{
+                    "hashrate": 80.19,
+                    "wattage": 200
+                },
+                "Flux": {
+                    "hashrate": 56,
+                    "wattage": 200
+                },
+                "Alephium": {
+                    "hashrate": 1470,
+                    "wattage": 200
+                },
+                "Clore": {
+                    "hashrate": 19.77,
+                    "wattage": 200
+                },
+                "Ergo": {
+                    "hashrate": 89.65,
+                    "wattage": 200
+                },
+                "Radiant": {
+                    "hashrate": 786.4,
+                    "wattage": 200
+                },
+                "Eth Classic": {
+                    "hashrate": 38.67,
+                    "wattage": 200
+                }
+            }
+        },
+        {
+            "model": "4060",
+            "details": {
+                "Dynex": {
+                    "hashrate": 3.130,
+                    "wattage": 100
+                },
+                "Nexa":{
+                    "hashrate": 58.3,
+                    "wattage": 180
+                },
+                "Flux": {
+                    "hashrate": 45,
+                    "wattage": 180
+                },
+                "Alephium": {
+                    "hashrate": 1180,
+                    "wattage": 180
+                },
+                "Clore": {
+                    "hashrate": 17.92,
+                    "wattage": 180
+                },
+                "Ergo": {
+                    "hashrate": 73.93,
+                    "wattage": 180
+                },
+                "Radiant": {
+                    "hashrate": 573.75,
+                    "wattage": 180
+                },
+                "Eth Classic": {
+                    "hashrate": 33.42,
+                    "wattage": 180
+                }
+            }
+        },
+        {
+            "model": "3090ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 7.420,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 140.41,
+                    "wattage": 380
+                },
+                "Flux": {
+                    "hashrate": 112.6,
+                    "wattage": 380
+                },
+                "Alephium": {
+                    "hashrate": 2420,
+                    "wattage": 380
+                },
+                "Clore": {
+                    "hashrate": 63.7,
+                    "wattage": 380
+                },
+                "Ergo": {
+                    "hashrate": 258.05,
+                    "wattage": 380
+                },
+                "Radiant": {
+                    "hashrate": 1220,
+                    "wattage": 380
+                },
+                "Eth Classic": {
+                    "hashrate": 128.6,
+                    "wattage": 380
+                }
+            }
+        },
+        {
+            "model": "3090",
+            "details": {
+                "Dynex": {
+                    "hashrate": 7.450,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 131.12,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 123.76,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 2320,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 50.21,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 268.31,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 1110,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 120.26,
+                    "wattage": 350
+                }
+            }
+        },
+        {
+            "model": "3080ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 7.350,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 133.77,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 101.41,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 2330,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 53.99,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 264.62,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 1160,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 119.8,
+                    "wattage": 350
+                }
+            }
+        },
+        {
+            "model": "3080 12gb",
+            "details": {
+                "Dynex": {
+                    "hashrate": 6.150,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 113.72,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 102.2,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 1960,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 42.17,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 225.18,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 225.18,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 98.92,
+                    "wattage": 350
+                }
+            }
+        },
+        {
+            "model": "3080",
+            "details": {
+                "Dynex": {
+                    "hashrate": 6.150,
+                    "wattage": 190
+                },
+                "Nexa":{
+                    "hashrate": 113.72,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 102.2,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 1960,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 42.17,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 225.18,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 225.18,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 98.92,
+                    "wattage": 350
+                }
+            }
+        },
+        {
+            "model": "3070ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 4.510,
+                    "wattage": 150
+                },
+                "Nexa":{
+                    "hashrate": 77.3,
+                    "wattage": 300
+                },
+                "Flux": {
+                    "hashrate": 72.45,
+                    "wattage": 300
+                },
+                "Alephium": {
+                    "hashrate": 1390,
+                    "wattage": 300
+                },
+                "Clore": {
+                    "hashrate": 36.27,
+                    "wattage": 300
+                },
+                "Ergo": {
+                    "hashrate": 176.26,
+                    "wattage": 300
+                },
+                "Radiant": {
+                    "hashrate": 717,
+                    "wattage": 300
+                },
+                "Eth Classic": {
+                    "hashrate": 80.23,
+                    "wattage": 300
+                }
+            }
+        },
+        {
+            "model": "3070",
+            "details": {
+                "Dynex": {
+                    "hashrate": 4.330,
+                    "wattage": 150
+                },
+                "Nexa":{
+                    "hashrate": 77.12,
+                    "wattage": 300
+                },
+                "Flux": {
+                    "hashrate": 67.15,
+                    "wattage": 300
+                },
+                "Alephium": {
+                    "hashrate": 1320,
+                    "wattage": 300
+                },
+                "Clore": {
+                    "hashrate": 30.59,
+                    "wattage": 300
+                },
+                "Ergo": {
+                    "hashrate": 167.24,
+                    "wattage": 300
+                },
+                "Radiant": {
+                    "hashrate": 689,
+                    "wattage": 300
+                },
+                "Eth Classic": {
+                    "hashrate": 62.34,
+                    "wattage": 300
+                }
+            }
+        },
+        {
+            "model": "3060ti",
+            "details": {
+                "Dynex": {
+                    "hashrate": 3.600,
+                    "wattage": 130
+                },
+                "Nexa":{
+                    "hashrate": 63.73,
+                    "wattage": 110
+                },
+                "Flux": {
+                    "hashrate": 56.01,
+                    "wattage": 130
+                },
+                "Alephium": {
+                    "hashrate": 1130,
+                    "wattage": 120
+                },
+                "Clore": {
+                    "hashrate": 29.63,
+                    "wattage": 150
+                },
+                "Ergo": {
+                    "hashrate": 166.25,
+                    "wattage": 160
+                },
+                "Radiant": {
+                    "hashrate": 573,
+                    "wattage": 150
+                },
+                "Eth Classic": {
+                    "hashrate": 59.88,
+                    "wattage": 120
+                }
+            }
+        },
+        {
+            "model": "3060",
+            "details": {
+                "Dynex": {
+                    "hashrate": 2.800,
+                    "wattage": 120
+                },
+                "Nexa":{
+                    "hashrate": 46.91,
+                    "wattage": 220
+                },
+                "Flux": {
+                    "hashrate": 44.63,
+                    "wattage": 220
+                },
+                "Alephium": {
+                    "hashrate": 830,
+                    "wattage": 220
+                },
+                "Clore": {
+                    "hashrate": 22.71,
+                    "wattage": 220
+                },
+                "Ergo": {
+                    "hashrate": 122.09,
+                    "wattage": 220
+                },
+                "Radiant": {
+                    "hashrate": 419,
+                    "wattage": 220
+                },
+                "Eth Classic": {
+                    "hashrate": 48.89,
+                    "wattage": 220
+                }
+            }
+        },
+        {
+            "model": "3050",
+            "details": {
+                "Dynex": {
+                    "hashrate": 1.900,
+                    "wattage": 100
+                },
+                "Nexa":{
+                    "hashrate": 33.45,
+                    "wattage": 200
+                },
+                "Flux": {
+                    "hashrate": 24.54,
+                    "wattage": 200
+                },
+                "Alephium": {
+                    "hashrate": 580,
+                    "wattage": 200
+                },
+                "Clore": {
+                    "hashrate": 14.9,
+                    "wattage": 200
+                },
+                "Ergo": {
+                    "hashrate": 78.11,
+                    "wattage": 200
+                },
+                "Radiant": {
+                    "hashrate": 306,
+                    "wattage": 200
+                },
+                "Eth Classic": {
+                    "hashrate": 29.69,
+                    "wattage": 200
+                }
+            }
+        },
+        {
+            "model": "7900xtx",
+            "details": {
+                "Dynex": {
+                    "hashrate": 9.140,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 93.59,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 45.4,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1600,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 59.98,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 192.8,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 1580,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 101.1,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "7900xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 6.210,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 90.45,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 85.2,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 2750,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 48.34,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 162,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 1550,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 83.17,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "7800xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 6.320,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 0,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 55.5,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1580,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 36.15,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 130,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 915.77,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 66.63,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "7700xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 0,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 0,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 50.8,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1450,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 26.33,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 93.09,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 836,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 47.21,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "7600",
+            "details": {
+                "Dynex": {
+                    "hashrate": 2.420,
+                    "wattage": 200
+                },
+                "Nexa":{
+                    "hashrate": 29.66,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 27.4,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 710,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 17.86,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 53.16,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 407,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 32.02,
+                    "wattage": 350
+                }
+            }
+        },
+        {
+            "model": "6900xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 9.060,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 77.77,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 67.09,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1810,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 33.56,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 123.43,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 1150,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 62.5,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "6800xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 8.530,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 75.5,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 61.3,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1620,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 33.32,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 0,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 1030,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 61.7,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "6800",
+            "details": {
+                "Dynex": {
+                    "hashrate": 7.910,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 62.23,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 53.9,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 1380,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 31.96,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 119.02,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 875,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 60.08,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "6700xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 5.510,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 38.69,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 32,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 870,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 23.48,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 0,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 551,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 45.59,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "6600xt",
+            "details": {
+                "Dynex": {
+                    "hashrate": 3.640,
+                    "wattage": 250
+                },
+                "Nexa":{
+                    "hashrate": 34.33,
+                    "wattage": 400
+                },
+                "Flux": {
+                    "hashrate": 31.4,
+                    "wattage": 400
+                },
+                "Alephium": {
+                    "hashrate": 710,
+                    "wattage": 400
+                },
+                "Clore": {
+                    "hashrate": 17.4,
+                    "wattage": 400
+                },
+                "Ergo": {
+                    "hashrate": 62.22,
+                    "wattage": 400
+                },
+                "Radiant": {
+                    "hashrate": 457,
+                    "wattage": 400
+                },
+                "Eth Classic": {
+                    "hashrate": 31.26,
+                    "wattage": 400
+                }
+            }
+        },
+        {
+            "model": "6600",
+            "details": {
+                "Dynex": {
+                    "hashrate": 3.390,
+                    "wattage": 200
+                },
+                "Nexa":{
+                    "hashrate": 29.07,
+                    "wattage": 350
+                },
+                "Flux": {
+                    "hashrate": 26.8,
+                    "wattage": 350
+                },
+                "Alephium": {
+                    "hashrate": 640,
+                    "wattage": 350
+                },
+                "Clore": {
+                    "hashrate": 14.73,
+                    "wattage": 350
+                },
+                "Ergo": {
+                    "hashrate": 56.37,
+                    "wattage": 350
+                },
+                "Radiant": {
+                    "hashrate": 384,
+                    "wattage": 350
+                },
+                "Eth Classic": {
+                    "hashrate": 28.37,
+                    "wattage": 350
+                }
+            }
+        }   
+    ] 
+}

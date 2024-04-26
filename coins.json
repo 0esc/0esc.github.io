@@ -1,0 +1,58 @@
+{
+    "Dynex": {
+      "difficulty": "54,700,638,143",
+      "poolFee": "0.02",
+      "blockReward": "427,365",
+      "blockTime": "123",
+      "pricePerCoin": "0.527"
+    },
+    "Nexa": {
+      "difficulty": "170,343.044",
+      "poolFee": "0.02",
+      "blockReward": "10,000,000.00",
+      "blockTime": "114",
+      "pricePerCoin": "0.0001"
+    },
+    "Flux": {
+      "difficulty": "5077736.6",
+      "poolFee": "0.02",
+      "blockReward": "1,629,067",
+      "blockTime": "120",
+      "pricePerCoin": "0.9298"
+    },
+    "Alephium": {
+      "difficulty": "3.092399706414848e+15",
+      "poolFee": "0.02",
+      "blockReward": "1,369,491",
+      "blockTime": "4",
+      "pricePerCoin": "2.49"
+    },
+    "Clore": {
+      "difficulty": "49227.49191940032",
+      "poolFee": "0.02",
+      "blockReward": "200.79",
+      "blockTime": "60",
+      "pricePerCoin": "0.199"
+    },
+    "Ergo": {
+      "difficulty": "1.420311325048832e+15",
+      "poolFee": "0.02",
+      "blockReward": "27.01",
+      "blockTime": "119",
+      "pricePerCoin": "1.45"
+    },
+    "Radiant": {
+      "difficulty": "6861336.395",
+      "poolFee": "0.02",
+      "blockReward": "25,000",
+      "blockTime": "184",
+      "pricePerCoin": "0.002367"
+    },
+    "Eth Classic": {
+      "difficulty": "2.274693953283167e+15",
+      "poolFee": "0.02",
+      "blockReward": "2.48",
+      "blockTime": "13.2",
+      "pricePerCoin": "26.16"
+    }
+  }

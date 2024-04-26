@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minercheck</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="CHECKMARK.jpg"> <!-- favicon replacement jpg (tab logo)--> 
+</head>
+
+<body>
+    <header>
+        <img src="minerchecklogo.png" alt="Minercheck Logo" id="header-logo"> <!-- website logo -->
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mining-calculator.html">Mining Calculator</a></li>
+                <li><a href="coins.html">Coin List/Statistics</a></li>
+                <li><a href="gpu-profit-table.html">GPU Profitability</a></li>
+                <li><a href="database-landing.html">Mining Database</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="main">
+            <h1>Mining Profitability Calculator</h1>
+            <p>Use the calculator below to discover the possible output of your GPUs and their power for SOLO mining.</p>
+            <p>For POOL mining, please use the <a href="https://whattomine.com/">WhatToMine</a> website.</p>
+            <p>For more information on the coins, please visit the <a href="coins.html">Coin List/Statistics</a> page.</p>
+            <p>For more information on the GPUs, please visit the <a href="gpu-profit-table.html">GPU Profitability</a> page.</p>
+        </section>
+    
+        <form id="miningForm" class ="calculator-container">
+            <div id="gpuEntries">
+
+            </div>
+            <button type="button" onclick="addGpuEntry()">Add GPU</button>
+            <div>
+                <label for="electricityCost">Electricity Cost (per kWh in $):</label>
+                <input type="number" id="electricityCost" name="electricityCost" step="0.01" min="0">
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+        <table id="resultsTable" class="results-table">
+            <thead>
+                <tr>
+                    <th>GPU</th>
+                    <th>Coin</th>
+                    <th>Hashrate</th>
+                    <th>Power Usage</th>
+                    <th>Daily Revenue</th>
+                    <th>Daily Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- JS Table -->
+            </tbody>
+        </table>
+        <script src="mining-script.js"></script>
+    </main>
+    
+</body>
+
+<footer>
+    <p>&copy; 2024 Minercheck. All rights reserved.</p>
+</footer>
+
+</html>
